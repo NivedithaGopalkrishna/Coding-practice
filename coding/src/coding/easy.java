@@ -7,12 +7,12 @@ package coding;
  * @author nivedithag
  *
  */
-public class practice {
+public class easy {
 
 	/**
 	 * 
 	 */
-	public practice() {
+	public easy() {
 		// TODO Auto-generated constructor stub
 	}
 
