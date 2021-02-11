@@ -164,16 +164,32 @@ public class easy {
 		}
 		
 	}*/
-		int high = Integer.MIN_VALUE;
-		Integer arr[] = {1,5,3,19,10,6}	;
-		for(int i=0;i<arr.length;i++) {
-			high=Math.max(high, arr[i]);
-			
-		}
-		System.out.print(high);
+		
 	
 	
 		
+		
+	}
+	
+	public static void lcm(int n1, int n2) {
+		/*int lcm = n1>n2 ? n1:n2;
+		while(true) {
+			if(lcm%n1==0 && lcm%n2==0) {
+				System.out.print(lcm);
+				break;
+			}
+			lcm++;
+		}*/
+	}
+	
+	public static void hcf(int n1, int n2) {
+		int ans=0;
+		for(int i=1 ; i<=n1 || i<=n2 ;i++) {
+			if(n1%i==0 && n2%i==0) {
+				ans=i;
+			}
+		}
+		System.out.print(ans);
 		
 	}
 		
@@ -214,6 +230,9 @@ public class easy {
 		//converting user input to string
 		/*String val1 = s.nextLine();*/
 		
+		lcm(4,6);
+		
+		hcf(18,16);
 		
 		
 	}
